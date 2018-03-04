@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -10,7 +9,7 @@ public class Main {
 		Solution sol = new Solution();
 		Scanner s = new Scanner(System.in);
 	
-		/*System.out.println("Array size: ");
+		System.out.println("Array size: ");
 		N = s.nextInt();
 	
 		int[] A = new int[N];
@@ -24,20 +23,16 @@ public class Main {
 	
 		System.out.println("Number of cycles: ");
 		K = s.nextInt();
-		*/
+		
+		s.close();
 	
-		int[] A = {0,1,0,0};
-		N=4;
-		K=1;
+
 		B=sol.solution(A, N, K);
 	
 		System.out.println("Solution: \n");
 		for( int x : B)
 			System.out.print(x + ", ");
-	
-		
-	
-		
+			
 	}
 
 	
