@@ -1,9 +1,8 @@
-import java.math.BigInteger;
 
 public class Solution {
 	
 	
-	int solution(int N) {
+	public int solution(int N) {
 		
 		String inputIntBinaryArray = Integer.toBinaryString(N);
 		int maxGap = 0;
