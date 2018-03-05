@@ -27,7 +27,7 @@ public class Main {
 		s.close();
 	
 
-		B=sol.solution(A, N, K);
+		B=sol.solution(A, K);
 	
 		System.out.println("Solution: \n");
 		for( int x : B)
